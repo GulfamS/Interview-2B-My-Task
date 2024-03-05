@@ -57,7 +57,7 @@ class App extends Component {
 
   onClickAddBtn = () => {
     const {inputTask, selectTag} = this.state
-    const {taskName} = inputTask
+    const taskName = inputTask
     const taskCategory = selectTag
     const id = uuid()
     const bgColor = false
